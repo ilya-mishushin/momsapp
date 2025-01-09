@@ -1,0 +1,34 @@
+.view-albums-container {
+    text-align: center;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.view-albums-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.view-albums-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 480px) {
+    .view-albums-container {
+        margin: 10px;
+    }
+
+    .view-albums-button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
